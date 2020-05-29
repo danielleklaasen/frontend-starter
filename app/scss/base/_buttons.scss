@@ -1,0 +1,15 @@
+.uk-button {
+    width: 10rem;
+}
+
+.uk-button-primary {
+    background-color: $primary-colour;
+    &:hover{
+        background-color: darken($color: $primary-colour, $amount: 5);
+    }
+}
+
+.uk-button-default {
+    // border-color: $secondary-colour;
+    color: $primary-colour;
+}
